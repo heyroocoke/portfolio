@@ -1,0 +1,124 @@
+@import url(common.css);
+
+/* font
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  background:#F2F2F2;
+}
+
+/* section start__________________________________________________________ */
+#first{
+  height:1080px;
+}
+#first .c_gp{
+}
+#first .c1{
+  position:absolute;
+  width:500px; height:500px;
+  border-radius: 50%;
+  background:#94C6F2;
+  left:10%; top:20%;
+}
+#first .c2{
+  position:absolute;
+  width:400px; height:400px;
+  border-radius: 50%;
+  background:#010B40;
+  left:20%; top:35%;
+}
+#first .c3{
+  position:absolute;
+  width:300px; height:300px;
+  border-radius: 50%;
+  background:#010326;
+  left:30%; top:50%;
+}
+#first .r1{
+  position:absolute;
+  width:500px; height:50px;
+  background:#F2EEAC;
+  left:50%; top:30%;
+}
+
+#first .t_text{
+  position:absolute;
+  font-family: 'Black Han Sans', sans-serif;
+  color:#222;
+  font-size:100px;
+  right:10%;
+  top:30%;
+  z-index: 10;
+}
+
+/* intro start_________________________________ */
+
+#intro{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#intro .intro_head{
+  font-family: 'Open Sans', sans-serif;
+  font-size:70px;
+  font-weight: 200;
+}
+#intro .line1{
+  margin:30px;
+  width:2px; height:300px;
+  background:#010326;
+}
+#intro .intro_gp{
+  display: flex;
+  justify-content: space-around;
+}
+#intro .intro_left{
+  width:300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  padding-right:100px;
+}
+#intro .intro_left ul .n1{
+  height:200px;
+}
+#intro .intro_left ul li{
+  margin-bottom: 10px;
+}
+#intro .intro_center{
+  width:400px;
+}
+#intro .intro_center>img{
+  width:400px;
+}
+#intro .intro_right{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#intro .intro_right>p{
+  margin-top:100px;
+  margin-bottom:20px;
+  font-size:18px;
+}
+
+#intro .intro_right .skill_box{
+  display:flex;
+}
+#intro .intro_right .skill_box>div>img{
+  transform: scale(0.8);
+}
+
+
+footer{
+  display:flex;
+  justify-content: space-around;
+
+}
